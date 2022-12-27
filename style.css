@@ -59,6 +59,11 @@ body{
     font-weight: bold;
     font-size: 16px;
     padding-right: 20px;
+    transition: all 0.3s ease-in;
+}
+.button:hover{
+    cursor: pointer;
+    color: var(--Desaturatedblue);
 }
 .plan{
     font-weight: bold;
@@ -103,6 +108,21 @@ body{
     margin-top: 20px;
     font-size: 16px;
 }
+.big:hover{
+    cursor: pointer;
+    background-color: var(--Desaturatedblue);
+}
+.small:hover{
+    cursor: pointer;
+}
 .attribution{
     margin-top: 10px;
 }
+/* @media (max-width:375px) {
+    .card{
+        max-width: 325px; 
+        width: 235px;
+        margin: auto;
+        padding: 1.25rem;
+    }
+} */
